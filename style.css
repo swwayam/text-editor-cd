@@ -1,0 +1,61 @@
+/* Default styles */
+nav {
+    height: 80px;
+    padding: 0 40px;
+  }
+  
+  .editor-form {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #7e7b7b;
+    padding: 20px;
+    padding-top: 60px;
+  }
+  
+  .edit-area {
+    padding: 15px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    min-height: 60vh;
+  }
+  
+  .ctr-btn {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    nav {
+      padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .editor-form {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .edit-area {
+      min-height: 40vh; /* Adjust height for smaller screens */
+    }
+
+    .ctr-btn{
+        display: block;
+    }
+  
+    /* Make buttons stack up on smaller screens */
+    .ctr-btn button {
+      
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  
