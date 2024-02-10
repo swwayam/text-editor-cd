@@ -1,14 +1,14 @@
 // Function to capitalize all text in the textarea
 function capitalizeAllText() {
-    // Code to capitalize all text
-    // ...
+    const textArea = document.querySelector('.edit-area');
+    textArea.value = textArea.value.toUpperCase();
 }
 
-// Function to convert all text to lowercase in the textarea
 function lowerAllText() {
-    // Code to convert all text to lowercase
-    // ...
+    const textArea = document.querySelector('.edit-area');
+    textArea.value = textArea.value.toLowerCase();
 }
+
 
 // Function to capitalize the first character of each word in the textarea
 function capFirstChar() {
