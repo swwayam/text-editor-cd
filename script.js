@@ -34,6 +34,12 @@ function getWordCount() {
     // ...
 }
 
+
+fucntion getTextInfo(){
+    getWordCount()
+    getCharCount()
+}
+
 // Function to save the content of the textarea
 function saveContent() {
     // Code to save content
