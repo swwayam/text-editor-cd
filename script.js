@@ -35,7 +35,7 @@ function getWordCount() {
 }
 
 
-fucntion getTextInfo(){
+function getTextInfo(){
     getWordCount()
     getCharCount()
 }
